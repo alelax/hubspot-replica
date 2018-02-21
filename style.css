@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'AvenirNext', 'HelveticaNeue', Helvetica,Arial,sans-serif;
+  font-family: 'AvenirNext', 'HelveticaNeue', Helvetica,Arial,sans-serif; */
 }
 
 .wrapper {
@@ -46,7 +46,9 @@
   color: #2D3E50;
 }
  .main-box h1 {
-   font-size: 250%;
+   font-family: 'AvenirNextBold';
+   font-size: 2.7em;
+   font-weight: 700;
    margin-bottom: 25px;
  }
 
@@ -111,7 +113,7 @@
 .vertical p {
   width: 900px;
   margin: auto;
-  font-size: 130%;
+  font-size: 23px;;
   font-weight: 600;
   color: #FFF;
   margin-top: 5px;
@@ -174,6 +176,7 @@ p.box-inner-text {
   font-weight: 400;
   color: #425b76;
   margin: 5px 0;
+  line-height: 30px;
 }
 
 /* *************** style and vertical align of the third row content *************** */
@@ -193,8 +196,8 @@ p.box-inner-text {
 .box-feature-text .popular-features {
   width: 100%;
   clear: both;
-  font-size: 120%;
-  font-weight: bold;
+  font-size: 22px;
+  font-weight: 700;
   color: #2D3E50;
   padding: 50px 10px 30px;
   position: relative;
@@ -219,8 +222,8 @@ p.box-inner-text {
   display: inline-block;
   margin-right: 20px;
   color: #2D3E50;
-  font-size: 110%;
-  font-family: 'HelveticaNeue';
+  font-size: 21px;
+  font-family: 'AvenirNext';
 }
 
 
@@ -247,4 +250,8 @@ p.box-inner-text {
 @font-face {
     font-family: 'AvenirNext';
     src: url(otf/AvenirNextLTPro-Regular.otf);
+}
+@font-face {
+    font-family: 'AvenirNextBold';
+    src: url(otf/AvenirNextLTPro-Bold.otf);
 }

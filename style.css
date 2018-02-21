@@ -270,13 +270,39 @@ p.box-inner-text {
 .big-btn#centered {
   margin: 0 auto;
   position: relative;
-  top: calc(100% / 2);  
+  top: calc(100% / 2);
   left: calc(100% / 2);
   transform: translate(-50%, -50%);
 
 }
 
 /* ********************************************************************** */
+
+
+/* *************** style and vertical align of the sisxth row content *************** */
+
+.bg-gradientblue {
+  height: 90vh;
+  background-image: linear-gradient(0deg,#00a4bd,#00bda5);
+}
+
+.bg-gradientblue h2 {
+  margin-top: 80px;
+  width: 1000px;
+  font-size: 45px;
+}
+
+#senteces-blue-box {
+  margin-top: 40px;
+  width: 1000px;
+  font-family: 'AvenirNext';
+  font-weight: 200;
+  font-size: 23px;
+}
+
+/* ********************************************************************** */
+
+
 
 .bg-grey {
   background-color: #F2F5F8;

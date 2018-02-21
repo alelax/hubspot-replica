@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: 'AvenirNext', 'HelveticaNeue', Helvetica,Arial,sans-serif;
 }
 
 .wrapper {
@@ -159,7 +159,8 @@ a {
 }
 
 .white-box h4 {
-  font-size: 200%;
+  font-family: 'AvenirNext';
+  font-size: 180%;
   color: #2D3E50;
   margin: 10px 0;
 }
@@ -168,7 +169,8 @@ a {
 
 p.box-inner-text {
   width: 100%;
-  font-size: 150%;
+  font-family: 'AvenirNext';
+  font-size: 25px;
   font-weight: 400;
   color: #425b76;
   margin: 5px 0;
@@ -218,6 +220,7 @@ p.box-inner-text {
   margin-right: 20px;
   color: #2D3E50;
   font-size: 110%;
+  font-family: 'HelveticaNeue';
 }
 
 
@@ -235,4 +238,13 @@ p.box-inner-text {
 .bg-texture {
   background: #f2f5f8 url(svg/bg-texture.svg) 0 0 no-repeat;
   background-size: auto 150%;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url(ttf/HelveticaNeue.ttff);
+}
+@font-face {
+    font-family: 'AvenirNext';
+    src: url(otf/AvenirNextLTPro-Regular.otf);
 }

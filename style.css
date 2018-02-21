@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Helvetica,Arial,sans-serif;
 }
 
 .wrapper {
@@ -11,7 +12,7 @@
 }
 
 .wrapper .row-content {
-  width: 1500px;
+  width: 1600px;
   height: 100%;
   margin: auto;
   border: 1px solid blue;
@@ -27,16 +28,65 @@
 
 .text, .supplement {
   width: 50%;
-  height: 70%;
+  height: 80%;
   border: 1px solid red;
 }
 
+/* *************** style and vertical align of the first row content ***************  */
+.vertical-align {
+
+  border: 1px solid green;
+  display: inline-block;
+  position: relative;
+  top: calc(100% / 2);
+  transform: translateY(-50%);
+}
+ .allSystemGrow h1 {
+   font-size: 450%;
+   color: #2D3E50;
+   margin-bottom: 25px;
+ }
+
+.allSystemGrow p  {
+   font-size: 180%;
+   color: #2D3E50;
+   margin-bottom: 25px;
+   line-height: 35px;
+ }
+
+ .allSystemGrow button  {
+    width: 280px;
+    height: 110px;
+    border: none;
+    border-radius: 8px;
+    background: #F27655;
+    color: #FFF;
+    font-size: 180%;
+    float: left;
+    margin-right: 30px;
+  }
+
+ .allSystemGrow #button-adiacent-text {
+   float: left;
+   width: 315px;
+   height: 27.5px;
+   position: relative;
+   top: 27.5px;
+   font-size: 105%;
+   line-height: 25px;
+ }
+
+
+
+
+/* ********************************************************************** */
 .row-content #darlingastronaute {
   height: 100%;
   width: 40%;
   background-image: url(png/darlingastronaute.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-position: -20px bottom;
+  background-size: 595px auto;
 }
 
 .row-content .vertical {

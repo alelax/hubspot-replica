@@ -194,6 +194,12 @@ p.box-inner-text {
   width: 88%;
 }
 
+.supplement #saleshub-image {
+  position: relative;
+  top: 40px;
+  width: 94%;
+}
+
 .box-feature-text h3 {
   font-size: 300%;
   color: #2D3E50;

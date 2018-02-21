@@ -179,12 +179,19 @@ p.box-inner-text {
   line-height: 30px;
 }
 
-/* *************** style and vertical align of the third row content *************** */
+/* *************** style and vertical align of the third, fourth and fifth row content *************** */
 
 .supplement #crmfree-image {
   width: 90%;
   position: relative;
   top: 50px;
+}
+
+.supplement #marketinghub-image {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  width: 88%;
 }
 
 .box-feature-text h3 {

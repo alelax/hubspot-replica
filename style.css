@@ -42,3 +42,16 @@
   height: 50%;
   border: 1px solid red;
 }
+
+.bg-grey {
+  background-color: #F2F5F8;
+}
+
+.bg-orange {
+  background-color: #F27655;
+}
+
+.bg-texture {
+  background: #f2f5f8 url(svg/bg-texture.svg) 0 0 no-repeat;
+  background-size: auto 150%;
+}

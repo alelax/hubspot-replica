@@ -11,7 +11,7 @@
 }
 
 .wrapper .row-content {
-  width: 800px;
+  width: 1500px;
   height: 100%;
   margin: auto;
   border: 1px solid blue;
@@ -32,9 +32,11 @@
 }
 
 .row-content #darlingastronaute {
-  height: 95%;
-  width: 50%;
-  margin-top: 1.5%;
+  height: 100%;
+  width: 40%;
+  background-image: url(png/darlingastronaute.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .row-content .vertical {

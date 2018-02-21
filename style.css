@@ -34,45 +34,47 @@
 
 /* *************** style and vertical align of the first row content ***************  */
 .vertical-align {
-
   border: 1px solid green;
   display: inline-block;
   position: relative;
   top: calc(100% / 2);
   transform: translateY(-50%);
 }
- .allSystemGrow h1 {
-   font-size: 450%;
-   color: #2D3E50;
+
+.main-box {
+  font-size: 180%;
+  color: #2D3E50;
+}
+ .main-box h1 {
+   font-size: 250%;
    margin-bottom: 25px;
  }
 
-.allSystemGrow p  {
-   font-size: 180%;
-   color: #2D3E50;
-   margin-bottom: 25px;
+.main-box p  {
+  width: 80%;
    line-height: 35px;
+   margin-bottom: 35px;
  }
 
- .allSystemGrow button  {
+ .main-box button  {
     width: 280px;
     height: 110px;
     border: none;
     border-radius: 8px;
     background: #F27655;
     color: #FFF;
-    font-size: 180%;
     float: left;
     margin-right: 30px;
+    font-size: 95%;
   }
 
- .allSystemGrow #button-adiacent-text {
+ .main-box #button-adiacent-text {
    float: left;
-   width: 315px;
+   width: 350px;
    height: 27.5px;
    position: relative;
    top: 27.5px;
-   font-size: 105%;
+   font-size: 60%;
    line-height: 25px;
  }
 
@@ -154,21 +156,34 @@ div.whitebox-container :last-child{
   border-bottom-right-radius: 5px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .white-box h4 {
   font-size: 200%;
   color: #2D3E50;
   margin: 10px 0;
 }
 
-.white-box p {
+/* ********************************************************************** */
+
+p.box-inner-text {
   width: 100%;
-  font-size: 130%;
+  font-size: 150%;
   font-weight: 400;
-  color: #2D3E50;
+  color: #425b76;
   margin: 5px 0;
 }
 
+/* *************** style and vertical align of the third row content *************** */
 
+.supplement #crmfree-image {
+  width: 95%;
+}
+
+
+/* ********************************************************************** */
 
 
 

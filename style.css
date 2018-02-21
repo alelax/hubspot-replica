@@ -8,13 +8,27 @@
   height: 70vh;
   border: 1px solid black;
 }
-.row-content{
-  width: 70%;
+.wrapper .row-content {
+  width: 800px;
   height: 100%;
   margin: auto;
   border: 1px solid blue;
+  position: relative;
 }
-.text{
+.horizontal {
+  float: left;
+  display: inline-block;
+  position: relative;
+  top: calc(100% / 2);
+  transform: translateY(-50%);
+}
+.text, .image {
   width: 50%;
-  height:
+  height: 70%;
+  border: 1px solid red;
+}
+.row-content #darlingastronaute {
+  height: 95%;
+  width: 50%;
+  margin-top: 1.5%;
 }

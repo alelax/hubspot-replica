@@ -246,17 +246,17 @@ p.box-inner-text {
 /* ********************************************************************** */
 
 
-/* *************** style and vertical align of the sisxth row content *************** */
+/* *************** style and vertical align of the sixth row content *************** */
 
 .wrapper.small {
   height: 40vh;
 }
 
-.only-txt {
+.larger-box {
   width: 70%;
 }
 
-.only-btn {
+.narrower-box {
   width: 30%;
 }
 
@@ -279,7 +279,7 @@ p.box-inner-text {
 /* ********************************************************************** */
 
 
-/* *************** style and vertical align of the sisxth row content *************** */
+/* *************** style  of the blue box content *************** */
 
 #top-section {
   height: 35%;
@@ -356,6 +356,46 @@ p.box-inner-text {
 /* ********************************************************************** */
 
 
+
+/* *************** style  of the sposnsor row *************** */
+
+.narrower-box h3 {
+  font-size: 60px;
+}
+
+.narrower-box p {
+  width: 400px;
+  font-size: 29px;
+  line-height: 35px;
+}
+
+.table.logo-only {
+  border: 1px solid black;
+  width: 85%;
+  height: 220px;
+  margin: auto;
+  position: relative;
+  top: calc(100% / 2);
+  transform: translateY(-50%);
+}
+
+.table.logo-only img {
+  height: 40px;
+  margin: 0;
+
+}
+ .white-box.logo-only {
+  width: 185px;
+  height: 107px;
+  border: 1px solid black;
+  float: left;
+  background-color: rgba(0,0,0,0);
+  margin: 0 20px;
+  padding: 25px;
+}
+
+
+/* ********************************************************************** */
 
 .bg-grey {
   background-color: #F2F5F8;

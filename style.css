@@ -484,16 +484,19 @@ footer {
 #small-btn {
   border: 2px solid #FFF;
   border-radius: 10px;
-  width: 350px;
+  width: 380px;
   height: 50px;
   background-color: #425b76;
   margin-top: 40px;
   position: absolute;
-  right: 100px;
-  top: 300px;
+  right: 70px;
+  top: 340px;
   color: #FFF;
-  font-size: 22px;
+  font-size: 23px;
+}
 
+.social-icon {
+  display: inline
 }
 
 /* ********************************************************************** */

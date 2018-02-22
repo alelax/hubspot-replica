@@ -397,6 +397,56 @@ p.box-inner-text {
 
 /* ********************************************************************** */
 
+
+/* *************** style  of the starts today row *************** */
+
+
+.box-feature-text .small-text {
+  width: 100%;
+  clear: both;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2D3E50;
+  padding: 40px 5px 30px;
+}
+
+#small-dim {
+  width: 85%;
+}
+
+#person {
+  width: 550px;
+  height: 550px;
+  border: 1px solid green;
+  margin: auto;
+  position: relative;
+  top: calc(100% / 2);
+  transform: translateY(-60%);
+  background-color: #f2547d;
+  border-radius: 50%;
+  background-image: url(png/girl.png);
+  background-size: cover;
+background-position: 30px -30px;
+}
+
+.pink-background {
+  height: 150px;
+  position: absolute;
+  left: 130px;
+  bottom: 80px;
+  z-index: 2;    
+}
+
+.row-content #taller {
+  height: 100%;
+}
+
+
+
+
+/* ********************************************************************** */
+
+
 .bg-grey {
   background-color: #F2F5F8;
 }
